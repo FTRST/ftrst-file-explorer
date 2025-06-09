@@ -1,12 +1,33 @@
-# React + Vite
+# File Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An application for the [futurist](https://github.com/ftrst/futurist-react) framework.
 
-Currently, two official plugins are available:
+It reads data from a specific Jotai state to load faux text documents for a user to select, open, read, and close within the setup desktop environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installing the App
+As with all Futurist Apps, this repo can be run isolated from the framework.
 
-## Expanding the ESLint configuration
+To install the App, review the installation guide here: https://docs.futurist.io/framework/app_walkthrough/
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Try It Out!
+
+File Explorer (exp) can be utilized as a standalone [Application](https://docs.futurist.io/framework/architecture/), without any reliance on the rest of the futurist framework.
+
+This is by design, to allow anyone to try before installing it into the larger project, should they choose to do so.
+
+Treat it as you would any other React project:
+
+1) Clone the repository:
+```
+git clone https://github.com/ftrst/ftrst-file-explorer
+```
+
+2) Install the packages:
+```
+npm install
+```
+
+3) Run the project:
+```
+npm dev
+```
