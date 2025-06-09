@@ -1,0 +1,44 @@
+{
+  "name": "ftrst-file-explorer",
+  "private": false,
+  "version": "0.2.5",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "futurist-components": "^2.3.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "vite": "^5.4.1"
+  },
+  "description": "An application for the FUTURIST web framework to provide longform content like a notepad.",
+  "main": "./dist/ftrst-file-explorer.umd.js",
+  "module": "./dist/ftrst-file-explorer.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ftrst-file-explorer.es.js",
+      "require": "./dist/ftrst-file-explorer.umd.js"
+    }
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": "https://github.com/ftrst/ftrst-file-explorer",
+  "author": "ftrst",
+  "license": "MIT"
+}
